@@ -7,8 +7,8 @@
 
 # You can add in more responses if you like.
 
-user_time = gets.to_f
-puts "You have entered #{user_time}"
+# user_time = gets.to_f
+# puts "You have entered #{user_time}"
 
 ##############################
 
@@ -50,9 +50,9 @@ puts "You have entered #{user_time}"
 
 # 2. Create a new array called urls. Add each of the urls to the new array as they are created.
 
-usernames.each do |username|
+# usernames.each do |username|
 
-end
+# end
 
 # 3. Print each url. Example output...
 
@@ -65,3 +65,27 @@ end
 # fin
 
 # rachael.colley@coderacademy.edu.au
+
+
+
+
+puts "Please enter a time in a 24 hour based format"
+time = gets.to_f
+puts "You have entered #{time}"
+if time < 12.0
+    puts "Morning"
+elsif time = 12.0
+    puts "Midday"
+elsif time <= 13.0
+    puts "Lunch"
+elsif time < 17.0
+    puts "Afternoon"
+elsif time >= 17.0 or <= 21.0
+    puts "Evening"
+elsif time > 21.0 or <=24.0
+    puts "Time for bed"
+elsif time == 0 or time == 24
+    puts "Midnight"
+else
+    puts "Not a valid 24 hour time"
+end
