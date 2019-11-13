@@ -69,23 +69,3 @@
 
 
 
-puts "Please enter a time in a 24 hour based format"
-time = gets.to_f
-puts "You have entered #{time}"
-if time < 12.0
-    puts "Morning"
-elsif time = 12.0
-    puts "Midday"
-elsif time <= 13.0
-    puts "Lunch"
-elsif time < 17.0
-    puts "Afternoon"
-elsif time >= 17.0 or <= 21.0
-    puts "Evening"
-elsif time > 21.0 or <=24.0
-    puts "Time for bed"
-elsif time == 0 or time == 24
-    puts "Midnight"
-else
-    puts "Not a valid 24 hour time"
-end

@@ -104,7 +104,31 @@ michelle_o = {username: "michelleobama", bio: "Girl from the South Side and form
 # end
 # puts chorus
 
-def calculate_number_of_weeks(days)
-    days / 7.0
+# def calculate_number_of_weeks(days)
+#     days / 7.0
+# end
+# puts calculate_number_of_weeks
+
+
+# def left_hand_in
+#     "you put your left hand in\n"
+# end
+
+# def left_hand_out
+#     "you put your left hand out\n"
+# end
+
+def shake_it_all_about
+    "and you shake it all about\n"
 end
-puts calculate_number_of_weeks(days)
+def left_hand (in_or_out)
+    "you put you left hand" + in_or_out
+end
+# # puts left_hand_in
+# puts left_hand("in")
+# puts left_hand("out")
+# puts left_hand("in")
+
+# puts shake_it_all_about
+
+
